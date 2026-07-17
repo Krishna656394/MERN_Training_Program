@@ -1,0 +1,51 @@
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        .container{
+            display: grid;
+            
+            grid-template-areas: 
+                "header header header"
+                "left content right"
+                "footer footer footer"
+            ;
+        }
+        #header{
+            grid-area: header;
+            background-color: gray;
+        }
+
+        #left{
+            grid-area: left;
+            background-color: rgb(70, 205, 243);
+        }
+        #content{
+            grid-area: content;
+            background-color: #91f2e5;
+        }
+        #right{
+            grid-area: right;
+            background-color: #f3a2a2;
+        }
+        #footer{
+            grid-area: footer;
+            background-color: #b7ed15;
+        }
+
+        ul li{
+            list-style: none;
+            float: left;
+            margin-left: 200px;
+            padding: 10px 0px 10px 0px;
+        }
+
+        ul li a{
+            text-decoration: none;
+            color: white;
+        }
+
+        ul li a:hover{
+            background-color: yellow;
+            color: black;
+        }
