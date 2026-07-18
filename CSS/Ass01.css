@@ -1,0 +1,65 @@
+body{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+            background-color: rgb(147, 146, 146);
+        }
+
+        h1{
+            color: red;
+            padding-left: 10px;
+        }
+
+        h2{
+            color: green;
+            font-style: italic;
+            padding-left: 10px;
+        }
+
+        .sp1{
+            text-decoration-line: line-through;
+        }
+        .sp2{
+            background-color: yellow;
+        }
+
+        ol li{
+            padding-top: 20px;
+            padding-left: 10px;
+        }
+
+        .lastline{
+            text-decoration-line: underline;
+            font-style: italic;
+        }
+
+        ul li{
+            margin-left: 10px;
+            padding-top: 10px;
+            letter-spacing: 5px;
+            color: white;
+        }
+
+        #newspan{
+            background-color: yellow;
+            color: black;
+        }
+
+        h3{
+            color: brown;
+        }
+        .box1{
+            font-size: xx-small;
+            color: brown;
+        }
+
+        .box2{
+            color: brown;
+            font-style: italic;
+        }
+
+        a{
+            background-color: yellow;
+            color: brown;
+            text-decoration: none;
+        }
