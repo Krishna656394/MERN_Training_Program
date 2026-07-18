@@ -11,12 +11,46 @@ html{
     scroll-behavior: smooth;
 }
 
+section{
+    scroll-margin-top: 100px;
+}
+
 body{
     background-color: #0d1117;
     color: #ffffff;
 }
 
 /* ===== Header ===== */
+
+nav ul li a{
+    position: relative;
+}
+
+nav ul li a::after{
+
+    content: "";
+
+    position: absolute;
+
+    left: 0;
+
+    bottom: -6px;
+
+    width: 0;
+
+    height: 2px;
+
+    background: #00bcd4;
+
+    transition: .3s;
+
+}
+
+nav ul li a:hover::after{
+
+    width: 100%;
+
+}
 
 header{
     width: 100%;
@@ -99,6 +133,7 @@ nav ul li a:hover{
     background: #00bcd4;
 }
 
+
 /* ===== Hero Section ===== */
 
 .hero{
@@ -116,6 +151,7 @@ nav ul li a:hover{
 .hero-content{
     flex: 1;
 }
+
 
 .hero-content h3{
     font-size: 30px;
@@ -193,6 +229,26 @@ nav ul li a:hover{
     border: 6px solid #00bcd4;
 
     box-shadow: 0 0 35px rgba(0,188,212,.4);
+}
+
+.hero-image img{
+    animation: floatImage 4s ease-in-out infinite;
+}
+
+@keyframes floatImage{
+
+    0%{
+        transform: translateY(0);
+    }
+
+    50%{
+        transform: translateY(-20px);
+    }
+
+    100%{
+        transform: translateY(0);
+    }
+
 }
 
 /* ================= ABOUT SECTION ================= */
@@ -329,6 +385,9 @@ nav ul li a:hover{
 
 }
 
+
+
+
 .skill-card i{
 
     font-size: 60px;
@@ -391,6 +450,14 @@ nav ul li a:hover{
     border-color: #00bcd4;
 
     box-shadow: 0 10px 30px rgba(0,188,212,.25);
+
+}
+
+.project-card:hover{
+
+    box-shadow:
+    0 0 15px #00bcd4,
+    0 0 30px rgba(0,188,212,.3);
 
 }
 
