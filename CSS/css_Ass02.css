@@ -1,0 +1,303 @@
+*{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        header h1{
+            font-size: 2rem;
+            font-weight: 900;
+            text-shadow: 2px 2px 2px rgb(132, 29, 192);
+            font-style: italic;
+        }
+        h1{
+            padding-block: 1rem;
+            width: 40%;
+            margin: 0 auto;
+            text-align: center;
+            border: 5px solid blue;
+            background-color: #fff;
+            color: rgb(132, 29, 192);
+            border-radius: 10px;
+            line-height: 3.5rem;
+        }
+        
+        hr{
+            width: 100%;
+            margin-top: 10px;
+            border: 1px solid rgb(132, 29, 192);
+        }
+        main{
+            border: 5px solid rgb(12, 33, 223);
+            width: 100%;
+            padding: 20px;
+
+        }
+
+        main section .top{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .top .left-address {
+            width: 18%;
+            height: 320px;
+            border: 5px solid red;
+            padding: 10px;
+            border-radius: 10px;
+            background-color: white;
+            box-shadow: 3px 3px 5px 5px purple;
+        }
+
+        .left-address ul li{
+            font-size: 1.5rem;
+            list-style: none;
+            padding-top: 10px;
+            font-weight: 900;
+            text-shadow: 2px 2px 2px rgb(132, 29, 192);
+            line-height: 2.5rem;
+        }
+
+        .top .right-address{
+            width: 18%;
+            height: 320px;
+            border: 5px solid red;
+            padding: 10px;
+            border-radius: 10px;
+            background-color: white;
+            box-shadow: 3px 3px 5px 5px purple;
+        }
+
+        main section .bottom{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .left-instruction{
+            width: 18%;
+            height: 300px;
+            border: 5px solid red;
+            padding: 10px;
+            border-radius: 10px;
+            background-color: white;
+            box-shadow: 3px 3px 5px 5px purple;
+        }
+
+        .rateCard{
+            width: 18%;
+            height: 300px;
+            border: 5px solid red;
+            padding: 10px;
+            border-radius: 10px;
+            background-color: white;
+            box-shadow: 3px 3px 5px 5px purple;
+        }
+
+        .bottom .left-instruction h2{
+            display: flex;
+            font-size: 1.5rem;
+            padding-top: 10px;
+            font-weight: 900;
+            text-shadow: 2px 2px 2px rgb(132, 29, 192);
+            justify-content: center;
+        }
+
+        .bottom .rateCard{
+            width: 18%;
+            border: 5px solid red;
+            padding: 20px 10px;
+            border-radius: 10px;
+            background-color: white;
+            box-shadow: 3px 3px 5px 5px purple;
+        }
+
+        .bottom .rateCard{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+        }
+
+
+        .bottom .rateCard form{
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .bottom .rateCard form label{
+            font-size: 1.5rem;
+            color: purple;
+        }
+
+        .bottom .rateCard form input{
+            padding: 5px 5px;
+            border-radius: 10px;
+            border: none;
+            box-shadow: 3px 3px 5px 5px purple;
+            outline: none;
+        }
+        
+        .bottom .rateCard h3{
+            display: flex;
+            color: red;
+            font-size: 1.5rem;
+            justify-content: center;
+            font-weight: 900;
+            text-shadow: 2px 2px 2px red;
+        }
+
+        .bottom-section{
+            width: 60%;
+            margin: 15px auto;
+            border: 8px solid rgb(210, 249, 34);
+            background-color: rgb(138, 228, 246);
+        }
+
+        .twoitem{
+            display: flex;
+            justify-content: space-between;
+
+        }
+
+        .leftitem{
+            margin: 40px 40px 40px 60px;
+            width: 32%;
+            border: 5px solid red;
+            padding: 20px 10px;
+            border-radius: 10px;
+            background-color: white;
+            box-shadow: 3px 3px 5px 5px purple;
+        }
+
+        .rightitem{
+            margin: 40px 60px 40px 40px;
+            width: 32%;
+            border: 5px solid red;
+            padding: 20px 10px;
+            border-radius: 10px;
+            background-color: white;
+            box-shadow: 3px 3px 5px 5px purple;
+        }
+
+        .leftitem li{
+            margin-left: 80px;
+            list-style: none;
+            padding-left: 20px;
+            padding: 10px;
+            line-height: 1.5rem;
+        }
+
+        .rightitem li{
+            margin-right: 80px;
+            list-style: none;
+            padding-left: 20px;
+            padding: 10px;
+            margin-left: 80px;
+            line-height: 1.5rem;
+        }
+
+        .bottom-section #hhh1{
+            width: 100%;
+            height: 80px;
+            background-color: antiquewhite;
+            display: flex;
+            text-align: center;
+            justify-content: center;
+        }
+
+        .bottom-section .others #other{
+            width: 100%;
+            height: 80px;
+            background-color: antiquewhite;
+            display: flex;
+            text-align: center;
+            justify-content: center;
+        }
+
+        .item_Card{
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .item-leftcard{
+            margin: 40px 40px 40px 60px;
+            width: 32%;
+            border: 5px solid red;
+            padding: 20px 10px;
+            border-radius: 10px;
+            background-color: white;
+            box-shadow: 3px 3px 5px 5px purple;
+        }
+
+        .item-rightcard{
+            margin: 40px 60px 40px 40px;
+            width: 32%;
+            border: 5px solid red;
+            padding: 20px 10px;
+            border-radius: 10px;
+            background-color: white;
+            box-shadow: 3px 3px 5px 5px purple;
+        }
+
+        .item-leftcard h2{
+            margin-top: 20px;
+            margin-left: 70px;
+            text-decoration: underline;
+        }
+        .item-rightcard h2{
+            text-decoration: underline;
+            margin-top: 20px;
+            margin-left: 40px;
+        }
+
+        .item-leftcard li{
+            margin-left: 80px;
+            list-style: none;
+            padding-left: 20px;
+            padding: 10px;
+            line-height: 1.5rem;
+        }
+
+        .item-rightcard li{
+            margin-right: 80px;
+            list-style: none;
+            padding-left: 20px;
+            padding: 10px;
+            margin-left: 80px;
+            line-height: 1.5rem;
+        }
+
+
+        footer{
+            background-color: #111;
+            color: white;
+            text-align: center;
+            padding: 25px 10px;
+            margin-top: 50px;
+            border-top: 2px solid #00bcd4;
+        }
+
+        footer p{
+            margin: 8px 0;
+            font-size: 16px;
+            letter-spacing: 0.5px;
+        }
+
+        footer p:first-child{
+            font-weight: 600;
+        }
+
+        footer p:last-child{
+            color: #00bcd4;
+            font-size: 14px;
+        }
+
+    
+
+                

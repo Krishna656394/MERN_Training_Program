@@ -4,47 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-
-        *{
-            padding: 0;
-            margin: 0;
-            box-sizing: border-box;
-        }
-        header h1{
-            font-size: 2rem;
-            font-weight: 900;
-            text-shadow: 2px 2px 2px rgb(132, 29, 192);
-            font-style: italic;
-        }
-        h1{
-                width: 40%;
-                padding-block: 1rem;
-                margin: 0 auto;
-                text-align: center;
-                border: 5px solid blue;
-                background-color: #fff;
-                color: rgb(132, 29, 192);
-                border-radius: 10px;
-                line-height: 3.5rem;
-        }
-
-        main section .top{
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-
-        .top .left-address {
-            width: 18%;
-            height: 320px;
-            border: 5px solid red;
-            padding: 10px;
-            border-radius: 10px;
-            background-color: white;
-            box-shadow: 3px 3px 5px 5px purple;
-        }
-    </style>
+    <link rel="stylesheet" href="./css_Ass02.css">
 </head>
 <body>
     <header>
@@ -68,6 +28,7 @@
                 </div>
                 <div class="right-address"></div>
             </div>
+            <br><br>
             <div class="bottom">
                 <div class="left-instruction">
                     <h2>
@@ -83,8 +44,78 @@
                         AND PRICE.
                     </h2>
                 </div>
+                <div class="rateCard">
+                    <h3 class="hh2">PLEASE RATE US</h3>
+                    <form action="">
+                        <label>RATE US</label>
+                        <input type="number" name="rate" required>
+                        <label for="submit">SUBMIT</label>
+                        <input type="submit" name= "submit" value="Submit Here">
+                    </form>
+                </div>
             </div>
         </section>
     </main>
+    <div class="bottom-section">
+        <h1 id="hhh1">Welcome To My Store</h1>
+        <div class="twoitem">
+            <div class="leftitem">
+                <h2>Fruits Name</h2>
+                <ul>
+                    <li>Mango</li>
+                    <li>Banana</li>
+                    <li>Apple</li>
+                    <li>Grapes</li>
+                    <li>Orange</li>
+                    <li>Pomegranetes</li>
+                </ul>
+            </div>
+            <div class="rightitem">
+                <h2>Vegetables Name</h2>
+                <ul>
+                    <li>Potato</li>
+                    <li>Tomato</li>
+                    <li>Onion</li>
+                    <li>Carrot</li>
+                    <li>Cabbage</li>
+                    <li>Spinach</li>
+                </ul>
+            </div>
+        </div>
+        <div class="others">
+        <h1 id="other">Others Items</h1>
+
+        <div class="item_Card">
+            <div class="item-leftcard">
+            <h2>Dairy Products</h2>
+            <ul>
+                <li>Milk</li>
+                <li>Curd</li>
+                <li>Butter</li>
+                <li>Cheese</li>
+                <li>Paneer</li>
+                <li>Yogurt</li>
+            </ul>
+        </div>
+
+        <div class="item-rightcard">
+            <h2>Personal Care</h2>
+            <ul>
+                <li>Soap</li>
+                <li>Shampoo</li>
+                <li>Face Cream</li>
+                <li>Toothpaste</li>
+                <li>Toothbrush</li>
+                <li>Hair Oil</li>
+            </ul>
+        </div>
+        </div>
+    </div>
+    </div>
+    <footer>
+        <p>&copy; 2026 Krishna Yadav. All Rights Reserved.</p>
+        <p>Designed & Developed by Krishna Yadav ❤️</p>
+        <p>Last Updated: July 2026</p>
+    </footer>
 </body>
 </html> 
