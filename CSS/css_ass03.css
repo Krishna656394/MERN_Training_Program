@@ -1,0 +1,215 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.section1{
+    height: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right, red, gray, rgb(73, 73, 246),60%, yellow, green);
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+    
+}
+
+.section2{
+    margin-left: 20%;
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    height: 100px;
+    border: 2px solid rgb(235, 9, 9);
+    background-color: rgb(15, 184, 231);
+    border-radius: 20px;
+}
+
+.section2 ul li{
+    font-weight: bold;
+    padding: 6px;
+}
+
+.section3{
+    margin-top: 20px;
+    border: 2px solid red;
+    border-radius: 10px;
+    background-color: rgb(143, 145, 145);
+    display: flex;
+    justify-content: space-between;
+}
+
+.section3 .box1,.box2, .box3, .box4{
+    margin: 20px;
+    padding: 10px;
+    border: 2px red solid;
+    border-radius: 10px;
+    background-color: rgb(93, 245, 245);
+}
+
+.section4{
+    margin-top: 24px;
+    height: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right, red, gray, rgb(73, 73, 246),60%, yellow, green);
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.section5{
+    display: flex;
+    justify-content: space-evenly;
+    background: radial-gradient(blue, aqua, green );
+    height: 200px;
+    align-items: center;
+    border: 3px solid rgb(88, 1, 1);
+    margin-top: 25px;
+}
+
+.box5{
+    border: 2px solid red;
+    background-color: yellow;
+    color: rgb(42, 41, 41);
+    text-align: center;
+    text-decoration: underline;
+    border-radius: 10px;
+    font-weight: bold;
+    width: 200px;
+    height: 100px;
+    padding-bottom: 10px;
+}
+.p4{
+    display: flex;
+    padding: 2px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 6px;
+}
+
+.section6 h2{
+    height: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right, red, gray, rgb(73, 73, 246),60%, yellow, green);
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 20px;
+}
+
+/* ===== Career Section ===== */
+
+.section6{
+    padding: 80px 10%;
+    background: #0d1117;
+    color: #fff;
+}
+
+.section6 h2{
+    text-align: center;
+    font-size: 30px;
+    color: #0d1718;
+    margin-bottom: 50px;
+}
+
+/* Grid */
+
+.career-card{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(280px,1fr));
+    gap: 25px;
+}
+
+/* Card */
+
+.feature{
+    background: #161b22;
+    padding: 25px;
+    border-radius: 15px;
+    border: 2px solid transparent;
+    transition: .4s;
+}
+
+.feature:hover{
+    transform: translateY(-10px);
+    border-color: #00bcd4;
+    box-shadow: 0 0 20px rgba(0,188,212,.3);
+}
+
+.feature h3{
+    color: #00bcd4;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.feature p{
+    color: #d0d0d0;
+    line-height: 1.8;
+    font-size: 16px;
+}
+
+/* List */
+
+.feature ul{
+    margin-top: 15px;
+    padding-left: 20px;
+}
+
+.feature ul li{
+    margin-bottom: 10px;
+    color: #d0d0d0;
+}
+
+/* Footer */
+
+.footer-text{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.footer-text h3{
+    color: #00bcd4;
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+
+/* Responsive */
+
+@media(max-width:768px){
+
+    .section6{
+        padding: 60px 20px;
+    }
+
+    .section6 h2{
+        font-size: 30px;
+    }
+
+    .feature{
+        padding: 20px;
+    }
+
+    .feature h3{
+        font-size: 20px;
+    }
+
+    .footer-text h3{
+        font-size: 24px;
+    }
+
+}
+
+
