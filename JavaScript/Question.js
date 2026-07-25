@@ -152,5 +152,6 @@ let age1 = Number(prompt("Enter your age: "));
 if (age1 >= 18) {
     console.log("You are an Adult.");
 } else {
-    console.log("You are a Minor.");
+    console.log("You are a Minor .");
 }
+
