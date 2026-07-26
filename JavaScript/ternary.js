@@ -9,7 +9,6 @@ let result = (marks >= 40) ? "Pass ": "Fail";
 console.log(result);
 
 // Exercise 2: Even ya Odd Number?
-
 let num = Number(prompt("Enter Number : "))
 let evenOdd = (num % 2 == 0)? "Even" : "Odd";
 console.log(evenOdd);
@@ -62,6 +61,7 @@ let num2 = Number(prompt("Enter Number2 : "));
 let max = (num1 > num2) ? num1 : num2;
 
 console.log(max);
+
 
 
 
