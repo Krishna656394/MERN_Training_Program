@@ -1,0 +1,22 @@
+h2{
+    border: 2px solid black;
+    background-color: yellow;
+    color: black;
+}
+@media screen and (min-width: 400px){
+    h2{
+        background-color: red;
+        color: aqua;
+    }
+}
+@media (min-width:200px) and (max-width: 400px){
+    h2{
+        background-color: magenta;
+    }
+}
+@media (orientation: landscape){
+    h2{
+        background-color: aquamarine;
+        color: red;
+    }
+}
