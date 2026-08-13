@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <style>
+        h2{
+            font-weight: bold;
+            font-size: larger;
+            text-align: center;
+            text-decoration-line: underline;
+        }
+        #form{
+            text-align: center;
+            font-size: medium;
+            height: 500px;
+            width: 400px;
+            border-radius: 3px solid rgb(0, 0, 0);
+            background-color: rgb(194, 193, 193);
+            padding: 20px;
+            margin-left: 530px;
+        }
+        input,label{
+            text-align: center;            
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- HTML Form Validation -->
+
+    <!-- <form action="">
+        <input type="text" name="" id="name" placeholder="Enter Ur Name...." required minlength="">
+        <br><br>
+        <input type="email" name="" id="email" placeholder="Enter Ur Email...." required>
+        <br><br>
+        <input type="password" name="" id="pwd" placeholder="Enter Password.....">
+        <br><br>
+        <input type="number" placeholder="Enter Number.....">
+        <br><br>
+        <button>Submit</button>
+    </form> -->
+
+    <!-- <form action="" id="form">
+        <input type="text" id="userName" placeholder="Enter Name ...." >
+        <span id="error"></span>
+        <br><br>
+        <input type="text" id="emailValid" placeholder="Enter Email...">
+        <button id="submit">Submit</button>
+    </form> -->
+
+    <h2>Registration Form</h2>
+    <form action="" id="form">
+    
+        <label for="name">Name : </label>
+        <input type="text" id="name" placeholder="Enter Name....">
+        <br><br>
+        <label for="email">Email : </label>
+        <input type="text" placeholder="Enter Email..." id="email">
+        <br><br>
+        <label for="mono">Mobile No : </label>
+        <input type="text" id="mono" placeholder="Mobile No ">
+        <br><br>
+        <label for="pwd">Password : </label>
+        <input type="text" id="pwd" placeholder="Enter Password">
+        <br><br>
+        <label for="cpwd">Confirm Password : </label>
+        <input type="text"  id="cpwd" placeholder="Enter Confirm Password.. ">
+        <br><br>
+        <label for="gen">Gender : </label>
+        <input type="radio" name="" id="male">
+        <label for="male">Male</label>
+        <input type="radio" name="" id="female">
+        <label for="female">Female</label>
+        <br><br>
+        <label for="Subject">Subject : </label>
+        <input type="checkbox" id="java">
+        <label for="java">Java</label>
+        <input type="checkbox" id="c++">
+        <label for="c++">C++</label>
+        <input type="checkbox" id="js">
+        <label for="js">JavaScript</label>
+        <br><br>
+        <label for="address">Address : </label>
+        <input type="text" id="address" placeholder="Enter City ..">
+        <br><br>
+        <label for="pinCode">Pin Code : </label>
+        <input type="text" id="pinCode">
+        <br><br>
+        <label for="country">Country : </label>
+        <input type="text" id="country">
+        <br><br>
+        <label for="dob">DOB</label>
+        <input type="text" id="dob">
+        <br><br>
+
+        <button id="submit">Submit</button>
+
+    </form>
+    <script src="form.js"></script>
+</body>
+</html>
