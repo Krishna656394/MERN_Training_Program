@@ -1,0 +1,55 @@
+body {
+    text-align: center;
+}
+
+.main-container {
+    height: 600px;
+    width: 100%;
+    background-color: rgb(250, 248, 248);
+}
+.heading-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+}
+
+#theme {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.lineOne,
+.lineTwo {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 30px;
+    
+}
+
+.card {
+    height: 100px;
+    width: 300px;
+    border: 1px solid white;
+    box-shadow: 0 0 6px rgb(55, 55, 55);
+    background-color: white;
+    margin-top: 30px;
+}
+
+button:hover{
+    background-color: aquamarine;
+}
+
+.dark {
+    background-color: rgb(55, 55, 55);
+    color: white;
+}
+
+.dark .card {
+    background-color: rgb(35, 35, 35);
+    color: white;
+    box-shadow: 0 0 10px black;
+}
